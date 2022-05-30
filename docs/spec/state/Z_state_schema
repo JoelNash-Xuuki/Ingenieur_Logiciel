@@ -1,0 +1,4 @@
+"A system is a collection of state variables that must obey certain  
+control laws and safety assertions. This can be modeled by a Z state schema."
+
+Controls laws - formulas relating to state variables
