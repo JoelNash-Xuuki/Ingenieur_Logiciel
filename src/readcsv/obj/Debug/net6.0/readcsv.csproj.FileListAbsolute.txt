@@ -1,0 +1,17 @@
+/home/joel/Ingenieur_Logiciel/src/readcsv/obj/Debug/net6.0/readcsv.csproj.AssemblyReference.cache
+/home/joel/Ingenieur_Logiciel/src/readcsv/obj/Debug/net6.0/readcsv.GeneratedMSBuildEditorConfig.editorconfig
+/home/joel/Ingenieur_Logiciel/src/readcsv/obj/Debug/net6.0/readcsv.AssemblyInfoInputs.cache
+/home/joel/Ingenieur_Logiciel/src/readcsv/obj/Debug/net6.0/readcsv.AssemblyInfo.cs
+/home/joel/Ingenieur_Logiciel/src/readcsv/obj/Debug/net6.0/readcsv.csproj.CoreCompileInputs.cache
+/home/joel/Ingenieur_Logiciel/src/readcsv/bin/Debug/net6.0/readcsv
+/home/joel/Ingenieur_Logiciel/src/readcsv/bin/Debug/net6.0/readcsv.deps.json
+/home/joel/Ingenieur_Logiciel/src/readcsv/bin/Debug/net6.0/readcsv.runtimeconfig.json
+/home/joel/Ingenieur_Logiciel/src/readcsv/bin/Debug/net6.0/readcsv.dll
+/home/joel/Ingenieur_Logiciel/src/readcsv/bin/Debug/net6.0/ref/readcsv.dll
+/home/joel/Ingenieur_Logiciel/src/readcsv/bin/Debug/net6.0/readcsv.pdb
+/home/joel/Ingenieur_Logiciel/src/readcsv/bin/Debug/net6.0/CsvHelper.dll
+/home/joel/Ingenieur_Logiciel/src/readcsv/obj/Debug/net6.0/readcsv.csproj.CopyComplete
+/home/joel/Ingenieur_Logiciel/src/readcsv/obj/Debug/net6.0/readcsv.dll
+/home/joel/Ingenieur_Logiciel/src/readcsv/obj/Debug/net6.0/ref/readcsv.dll
+/home/joel/Ingenieur_Logiciel/src/readcsv/obj/Debug/net6.0/readcsv.pdb
+/home/joel/Ingenieur_Logiciel/src/readcsv/obj/Debug/net6.0/readcsv.genruntimeconfig.cache

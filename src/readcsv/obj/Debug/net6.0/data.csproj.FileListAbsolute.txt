@@ -1,0 +1,17 @@
+/home/joel/Ingenieur_Logiciel/src/data/bin/Debug/net6.0/data
+/home/joel/Ingenieur_Logiciel/src/data/bin/Debug/net6.0/data.deps.json
+/home/joel/Ingenieur_Logiciel/src/data/bin/Debug/net6.0/data.runtimeconfig.json
+/home/joel/Ingenieur_Logiciel/src/data/bin/Debug/net6.0/data.dll
+/home/joel/Ingenieur_Logiciel/src/data/bin/Debug/net6.0/ref/data.dll
+/home/joel/Ingenieur_Logiciel/src/data/bin/Debug/net6.0/data.pdb
+/home/joel/Ingenieur_Logiciel/src/data/bin/Debug/net6.0/CsvHelper.dll
+/home/joel/Ingenieur_Logiciel/src/data/obj/Debug/net6.0/data.csproj.AssemblyReference.cache
+/home/joel/Ingenieur_Logiciel/src/data/obj/Debug/net6.0/data.GeneratedMSBuildEditorConfig.editorconfig
+/home/joel/Ingenieur_Logiciel/src/data/obj/Debug/net6.0/data.AssemblyInfoInputs.cache
+/home/joel/Ingenieur_Logiciel/src/data/obj/Debug/net6.0/data.AssemblyInfo.cs
+/home/joel/Ingenieur_Logiciel/src/data/obj/Debug/net6.0/data.csproj.CoreCompileInputs.cache
+/home/joel/Ingenieur_Logiciel/src/data/obj/Debug/net6.0/data.csproj.CopyComplete
+/home/joel/Ingenieur_Logiciel/src/data/obj/Debug/net6.0/data.dll
+/home/joel/Ingenieur_Logiciel/src/data/obj/Debug/net6.0/ref/data.dll
+/home/joel/Ingenieur_Logiciel/src/data/obj/Debug/net6.0/data.pdb
+/home/joel/Ingenieur_Logiciel/src/data/obj/Debug/net6.0/data.genruntimeconfig.cache
