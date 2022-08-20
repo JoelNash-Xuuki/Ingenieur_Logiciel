@@ -1,0 +1,5 @@
+/home/joel/Ingenieur_Logiciel/src/Manage-Excel-WorkBook-And-Or-Sheet-Test/obj/Debug/net6.0/Manage-Excel-WorkBook-And-Or-Sheet-Test.csproj.AssemblyReference.cache
+/home/joel/Ingenieur_Logiciel/src/Manage-Excel-WorkBook-And-Or-Sheet-Test/obj/Debug/net6.0/Manage-Excel-WorkBook-And-Or-Sheet-Test.GeneratedMSBuildEditorConfig.editorconfig
+/home/joel/Ingenieur_Logiciel/src/Manage-Excel-WorkBook-And-Or-Sheet-Test/obj/Debug/net6.0/Manage-Excel-WorkBook-And-Or-Sheet-Test.AssemblyInfoInputs.cache
+/home/joel/Ingenieur_Logiciel/src/Manage-Excel-WorkBook-And-Or-Sheet-Test/obj/Debug/net6.0/Manage-Excel-WorkBook-And-Or-Sheet-Test.AssemblyInfo.cs
+/home/joel/Ingenieur_Logiciel/src/Manage-Excel-WorkBook-And-Or-Sheet-Test/obj/Debug/net6.0/Manage-Excel-WorkBook-And-Or-Sheet-Test.csproj.CoreCompileInputs.cache
