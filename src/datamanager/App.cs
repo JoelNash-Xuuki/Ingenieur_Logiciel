@@ -4,15 +4,15 @@ using CsvHelper.Configuration;
 using OfficeOpenXml;
 
 namespace TestDataManagement{
+  public record Item(string Col1, string Col2, string Col3, string Col4, string Col5);
 
   public class DataManager{
     private CsvConfiguration csvConfig;
 	private StreamReader sr;
 	private CsvReader csvr;
 	private string value= null!;
-	private record Item(string Col1, string Col2, string Col3, string Col4, string Col5);
 	private int noOfRecs;
-	private List<Item> records= null!;
+	public List<Item> records= null!;
 
     public DataManager(string csvFile){
 	  csvConfig= new CsvConfiguration(CultureInfo.CurrentCulture){
@@ -23,6 +23,10 @@ namespace TestDataManagement{
  	  csvr= new CsvReader(sr, csvConfig);
 	  records= csvr.GetRecords<Item>().ToList();
 	  noOfRecs= records.Count();
+	}
+
+	public List<Item> getRecords(){
+	  return records;
 	}
 
     public void printCol5(){
@@ -64,39 +68,52 @@ namespace TestDataManagement{
 	}
 
 	// Get worksheet 
-	// access rows
-	private void insertTableValues(){
-	  for(int col= 2; col <=6; col++){
-        for(int row= 7; row <= 11; row++){
-           // worksheet.Cells[row, col].Value = "Test";
-	    }
-	  }
+	// Access rows
+	public void insertTableValues(List<Item> records){
+
+	  for(int row= 7; row <= 11; row++)
+	      worksheet.Cells[row, 2].Value= records.ElementAt(row-6).Col1;
+
+	  for(int row= 7; row <= 11; row++)
+	      worksheet.Cells[row, 3].Value= records.ElementAt(row-6).Col2;
+
+	  for(int row= 7; row <= 11; row++)
+	      worksheet.Cells[row, 4].Value= records.ElementAt(row-6).Col3;
+
+	  for(int row= 7; row <= 11; row++)
+	      worksheet.Cells[row, 5].Value= records.ElementAt(row-6).Col4;
+
+	  for(int row= 7; row <= 11; row++)
+	      worksheet.Cells[row, 6].Value= records.ElementAt(row-6).Col5;
+
     }
 
 	private void insertDate(){
-	  worksheet.Cells[5, 2].Value = "Test";
+	 // worksheet.Cells[5, 2].Value = "Test";
 	}
 
-	private void insertTotal(){
-	  worksheet.Cells[12, 6].Value = "Test";
+	public void insertTotal(int total){
+	  worksheet.Cells[12, 6].Value= total;
 	}
 
-	public void populateWorkSheet(){
+	public void populateWorkSheet(int total, List<Item> records){
 	  insertDate();
-	  insertTableValues();
-      insertTotal();	
+	  insertTableValues(records);
+      insertTotal(total);	
+	  saveWorkSheet();
     }
+
+	public void saveWorkSheet(){
+	  package.Save();
+	}
   }
 
   public class App{
-  
     static void Main(string[] args){
       Console.WriteLine("Program Start " + DateTime.Now);
       DataManager dm= new DataManager("/home/joel/db/test.csv");
 	  TestXlsxManager txm= new TestXlsxManager("/home/joel/db/TestReport.xlsx");
-//	  txm.populateWorkSheet();
-	  Console.WriteLine("Total: " + dm.addValuesInCol5());
-
+	  txm.populateWorkSheet(dm.addValuesInCol5(), dm.getRecords());
     }
   }
 } 
